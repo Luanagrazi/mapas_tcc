@@ -128,12 +128,10 @@ path:hover {
 }
 
 .containerr .imagee-container {
-    display: flex;
-        grid-template-columns: repeat(3,1fr);
-        gap: 20px;
-        padding: 30px;
-        flex-direction: row;
-        flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 30px;
 }
 
 @keyframes fadeIn {
@@ -171,7 +169,7 @@ path:hover {
     color: #2c3e50;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     .containerr .imagee-container {
         display: flex;
